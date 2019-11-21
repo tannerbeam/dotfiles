@@ -1,0 +1,7 @@
+ssl_verify: true
+channels:
+  - defaults
+create_default_packages:
+  - ipython
+  - numpy
+  - pandas
