@@ -1,0 +1,6 @@
+[core]
+	excludesfile = /Users/beamt/.gitignore
+	editor = subl -n -w
+[user]
+	name = Tanner Beam
+	email = tanner.beam@autodesk.com
