@@ -1,6 +1,11 @@
 # cmd to add to global config: 
 # git config --global core.excludesfile ~/.gitignore
 
+# Directories
+/data/
+/plots/
+/.ipynb_checkpoints/
+
 # General
 .DS_Store
 .AppleDouble
@@ -42,8 +47,4 @@ Desktop.ini
 venv
 node_modules
 .sass-cache
-
-# Raw data files
-*.csv
-*.json
-*.parquet
+.Rhistory
