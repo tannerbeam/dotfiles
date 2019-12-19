@@ -42,3 +42,8 @@ Desktop.ini
 venv
 node_modules
 .sass-cache
+
+# Raw data files
+*.csv
+*.json
+*.parquet
