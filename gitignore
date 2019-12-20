@@ -1,10 +1,14 @@
 # cmd to add to global config: 
 # git config --global core.excludesfile ~/.gitignore
 
-# Directories
+# Directories only
 /data/
 /plots/
+/credentials/
 /.ipynb_checkpoints/
+
+# Auth credentials
+credentials.*
 
 # General
 .DS_Store
@@ -48,3 +52,4 @@ venv
 node_modules
 .sass-cache
 .Rhistory
+.ipynb_checkpoints
