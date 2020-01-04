@@ -8,7 +8,12 @@ export ZSH="/Users/beamt/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="pygmalion"
+ZSH_THEME="powerlevel9k/powerlevel9k"
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon context dir vcs anaconda)
+POWERLEVEL9K_ANACONDA_BACKGROUND='red'
+POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='lightgreen'
+POWERLEVEL9K_DISABLE_RPROMPT=true
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -68,11 +73,10 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages colorize pip python brew osx)
+plugins=(git colored-man-pages colorize pip python brew osx virtualenv)
 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
+source $ZSH/conda_auto_env.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -112,4 +116,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
