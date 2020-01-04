@@ -21,5 +21,7 @@ ln -nsf ~/git/dotfiles/gitignore ~/.gitignore
 ln -nsf ~/git/dotfiles/Conda.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -nsf ~/git/dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -nsf ~/git/dotfiles/condarc ~/.condarc
+ln -nsf ~/git/dotfiles/oh-my-zsh.sh $ZSH/oh-my-zsh.sh
+ln -nsf ~/git/dotfiles/conda_auto_env.sh $ZSH/conda_auto_env.sh
 
 echo "All done!"
