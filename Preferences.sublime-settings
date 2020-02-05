@@ -1,7 +1,7 @@
 {
 	"auto_complete_delay": 5,
 	"auto_complete_selector": "source, text",
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
 	"create_window_at_startup": false,
 	"folder_exclude_patterns":
 	[
@@ -27,7 +27,7 @@
 		"*.psd"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 14,
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"Markdown",
@@ -38,7 +38,8 @@
 	[
 		80
 	],
-	"theme": "Default.sublime-theme",
+	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"wrap_width": 80
 }
