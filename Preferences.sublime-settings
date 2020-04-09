@@ -27,7 +27,7 @@
 		"*.psd"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 16,
+	"font_size": 15,
 	"ignored_packages":
 	[
 		"Markdown",
