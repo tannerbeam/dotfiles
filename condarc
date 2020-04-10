@@ -2,4 +2,5 @@ ssl_verify: true
 channels:
   - defaults
   - conda-forge
+  - pypi
 env_prompt: ({name})

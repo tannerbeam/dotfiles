@@ -4,6 +4,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/beamt/.oh-my-zsh"
 
+# Env Variables
+ export QUBOLE_JDBC_JAR_PATH="$HOME/jar/qds-jdbc-2.3.2.jar"
+ export CLASSPATH="$HOME/jar/*"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
