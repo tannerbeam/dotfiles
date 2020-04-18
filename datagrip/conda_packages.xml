@@ -1,5 +1,0 @@
-<application>
-  <component name="PyCondaPackageService">
-    <option name="PREFERRED_CONDA_PATH" value="/usr/local/Caskroom/miniconda/base/bin/conda" />
-  </component>
-</application>

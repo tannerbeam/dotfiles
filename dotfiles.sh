@@ -30,17 +30,4 @@ ln -nsf ~/git/dotfiles/Preferences.sublime-settings ~/Library/Application\ Suppo
 ln -nsf ~/git/dotfiles/condarc ~/.condarc
 ln -nsf ~/git/dotfiles/conda_auto_env.sh $ZSH/conda_auto_env.sh
 
-# datagrip
-  # -- make sure latest version is symlinked to DataGrip 
-  # -- e.g. ln -nsf /Library/Preferences/DataGrip ~/Library/Preferences/DataGrip.someversion
-
-ln -nsf ~/git/dotfiles/datagrip/applicationLibraries.xml ~/Library/Preferences/DataGrip/applicationLibraries.xml
-ln -nsf ~/git/dotfiles/datagrip/conda_packages.xml ~/Library/Preferences/DataGrip/conda_packages.xml
-ln -nsf ~/git/dotfiles/datagrip/databaseDrivers.xml ~/Library/Preferences/DataGrip/databaseDrivers.xml
-ln -nsf ~/git/dotfiles/datagrip/databaseSettings.xml ~/Library/Preferences/DataGrip/databaseSettings.xml
-ln -nsf ~/git/dotfiles/datagrip/editor.xml ~/Library/Preferences/DataGrip/editor.xml
-ln -nsf ~/git/dotfiles/datagrip/find.xml ~/Library/Preferences/DataGrip/find.xml
-ln -nsf ~/git/dotfiles/datagrip/ide.general.xml ~/Library/Preferences/DataGrip/ide.general.xml
-ln -nsf ~/git/dotfiles/datagrip/jdk.table.xml ~/Library/Preferences/DataGrip/jdk.table.xml
-
 echo "All done!"
