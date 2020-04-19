@@ -1,7 +1,7 @@
 {
 	"auto_complete_delay": 5,
 	"auto_complete_selector": "source, text",
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended Light.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"create_window_at_startup": false,
 	"folder_exclude_patterns":
 	[
@@ -38,7 +38,7 @@
 	[
 		80
 	],
-	"theme": "Seti.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true,
 	"wrap_width": 80
